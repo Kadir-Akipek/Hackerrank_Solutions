@@ -17,15 +17,4 @@ def electronic_shop(keyboards,drives,b):
     else:
         return -1
 
-
 print(electronic_shop([40,50,60],[5,8,12],60))
-
-
-
-"""b = 60
-k = [40,50]
-d = [5,8]
-
-for i in k:
-    for j in d:
-        print(i + j)"""
