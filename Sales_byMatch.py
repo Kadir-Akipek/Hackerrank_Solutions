@@ -6,7 +6,7 @@ def sockmerchant(n,ar):
 
     for i in range(max(ar)+1):
         while(narr[i] >= 2):
-            pair += 2
+            pair += 1
             narr[i] -= 2
 
     return pair
