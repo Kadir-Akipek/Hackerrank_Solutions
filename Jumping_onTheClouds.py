@@ -19,4 +19,4 @@ def jumpingOnClouds(c):
         return jump
     else:
         jump += 1
-        return 
+        return jump
