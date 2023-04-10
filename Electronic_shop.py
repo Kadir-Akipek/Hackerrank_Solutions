@@ -1,7 +1,3 @@
-b = 60
-keyboards = [40,50,60]
-drives = [5,8,12]
-
 def electronic_shop(keyboards,drives,b):
     cost = []
     for i in keyboards:
@@ -16,5 +12,3 @@ def electronic_shop(keyboards,drives,b):
         return max(cost)
     else:
         return -1
-
-print(electronic_shop([40,50,60],[5,8,12],60))
