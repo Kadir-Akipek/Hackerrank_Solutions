@@ -24,4 +24,4 @@ def formingMagicSquare(s):
         cost = getCost(square, s)
         minCost = min(minCost, cost)
     
-    return 
+    return minCost
